@@ -18,9 +18,9 @@
 }
 
 .nameContainer {
-  justify-content: start;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  justify-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .brandName {
@@ -34,7 +34,7 @@
 }
 
 .imageContainer {
-  text-align: center;
+  text-align: start;
 }
 
 .image {

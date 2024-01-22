@@ -19,7 +19,7 @@
       "fullWidth": true
     }
   },
-  
+
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -63,6 +63,15 @@
       "login",
       "minicart.v2"
     ]
+  },
+  "autocomplete-result-list.v2": {
+      "blocks": ["product-summary"]
+    },
+    "search-bar": {
+      "blocks": ["autocomplete-result-list.v2"],
+      "props": {
+        "openAutocompleteOnFocus": true
+      }
   },
   "flex-layout.col#logo-desktop": {
     "props": {

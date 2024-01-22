@@ -3,6 +3,7 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
+      "product-summary-sku-selector",
       "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
@@ -17,6 +18,12 @@
       "vtex.product-highlights@2.x:product-highlights#collection",
       "modal-trigger#quickview" // Check quickview.jsonc
     ]
+  },
+
+  "product-summary-sku-selector": {
+    "props":{
+      "showVariationsLabels": ["false"]
+    }
   },
 
   "product-summary-image#shelf": {
@@ -55,7 +62,8 @@
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "marginBottom": 4
+      "marginBottom": 4,
+      "horizontalAlign": "center"
     },
     "children": [
       "product-selling-price#summary",
